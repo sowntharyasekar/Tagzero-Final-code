@@ -27,7 +27,11 @@
 .App-link {
   color: #61dafb;
 }
-
+.navfont {
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  font-size:100px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
