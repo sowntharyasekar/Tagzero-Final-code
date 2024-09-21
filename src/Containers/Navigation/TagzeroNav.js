@@ -1,7 +1,7 @@
 import {Logo} from "../../constants/svglocations"
 const TagzeroNav =()=>{
     return(
-<nav class="navbar bg-dark navbar-expand-lg">
+<nav class="navbar navbar-expand-lg navbgclr">
   <div class="container-fluid d-flex justify-content-around ">
     
     <a class="navbar-brand" href="#"><Logo></Logo></a>
@@ -9,12 +9,12 @@ const TagzeroNav =()=>{
       <span class="navbar-toggler-icon"></span>
     </button> */}
     
-      <div class="navbar-nav">
-        <a class="nav-link active text-bg-dark navfont" aria-current="page" href="#">About Us</a>
-        <a class="nav-link text-bg-dark navfont" href="#">Services</a>
-        <a class="nav-link text-bg-dark navfont" href="#">Case Study</a>
+      <div class="navbar-nav navbgclr">
+        <a class="nav-link   navfont navtextclr" aria-current="page" href="#">About Us</a>
+        <a class="nav-link  navfont navtextclr" href="#">Services</a>
+        <a class="nav-link  navfont navtextclr" href="#">Case Study</a>
       </div>
-    <button type="button" class="btn btn-success">Contact Us</button>
+    <button type="button" class="btn buttoncolor">Contact Us</button>
 
   </div>
 </nav>
