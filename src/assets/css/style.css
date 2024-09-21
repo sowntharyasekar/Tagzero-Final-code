@@ -1,0 +1,17 @@
+.title-tag{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #2C2B2B;
+    position: sticky;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+.about-us-text{
+    color:#03BF71
+}

@@ -1,5 +1,7 @@
 import TagzeroNav from "./TagzeroNav";
 import { Backgroundimage } from "../../constants/svglocations";
+import AboutUs from "../../StaticComponents/AboutUs";
+
 const Tagzero=()=>{
     return(
         <>
@@ -22,6 +24,9 @@ const Tagzero=()=>{
     </div>
 
         
+
+        <AboutUs/>
+      
         </>
     )
 }
