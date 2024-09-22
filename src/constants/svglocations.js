@@ -4,4 +4,15 @@ export { ReactComponent as WhoWeAre } from "../assets/Images/WhoWeAre.svg";
 export { ReactComponent as OurValues } from "../assets/Images/OurValues.svg";
 export { ReactComponent as OurMission } from "../assets/Images/OurMission.svg";
 export { ReactComponent as WhyChooseUs } from "../assets/Images/WhyChooseUs.svg";
+export { ReactComponent as AppDev } from "../assets/Images/AppDev.svg";
+export { ReactComponent as Laptop } from "../assets/Images/Laptop.svg";
+export { ReactComponent as Channel } from "../assets/Images/Channel.svg";
+export { ReactComponent as WebDev } from "../assets/Images/WebDev.svg";
+export { ReactComponent as Analytics } from "../assets/Images/Analytics.svg";
+export { ReactComponent as Code } from "../assets/Images/Code.svg";
+export { ReactComponent as Discovery } from "../assets/Images/Discovery.svg";
+export { ReactComponent as Dashboard } from "../assets/Images/Dashboard.svg";
+export { ReactComponent as WorkSpace } from "../assets/Images/WorkSpace.svg";
+export { ReactComponent as Data } from "../assets/Images/Data.svg";
+export { ReactComponent as Arrow } from "../assets/Images/Arrow.svg";
 
