@@ -45,3 +45,88 @@
 .contact-btn:hover{
     box-shadow: inset 0 0 2px yellow;
 }
+.case-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27.24px;
+    color: #000000;
+}
+.imagewidthcase{
+    width: auto;
+    height: 300.87px;
+}
+
+/* Container for the carousel */
+.carousel-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%; /* Adjust width as needed */
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  /* Carousel wrapper to hold the items */
+  .carousel {
+    display: flex;
+    overflow-x: auto; /* Horizontal scrolling */
+    scroll-behavior: smooth;
+    gap: 10px;
+    padding: 10px 0;
+  }
+  
+  /* Hide the scrollbar */
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Individual carousel item */
+  .carousel-item {
+    min-width: 200px; /* Set your desired item width */
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Buttons for scrolling */
+  .scroll-button {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .left {
+    left: 10px;
+  }
+  
+  .right {
+    right: 10px;
+  }
+  
+  /* Hover effect for the buttons */
+  .scroll-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .horizontal-line {
+    width: 100%; /* Full width */
+    height: 0.1px; /* Thickness of the line */
+    background-color: #000; /* Color of the line */
+    margin: 20px 0; /* Spacing above and below the line */
+    align-self: center;
+  }
+  .listtext{
+    
+    color:rgba(0, 0, 0, 0.7);
+    
+  }
+ 
+  

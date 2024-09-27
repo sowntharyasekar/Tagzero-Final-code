@@ -15,4 +15,9 @@ export { ReactComponent as Dashboard } from "../assets/Images/Dashboard.svg";
 export { ReactComponent as WorkSpace } from "../assets/Images/WorkSpace.svg";
 export { ReactComponent as Data } from "../assets/Images/Data.svg";
 export { ReactComponent as Arrow } from "../assets/Images/Arrow.svg";
+export { ReactComponent as Digitalmarketing } from "../assets/Images/Digital marketing.svg";
+export { ReactComponent as Streamliningoperation } from "../assets/Images/Streamliningoperation.svg";
+export { ReactComponent as Revamping } from "../assets/Images/Revamping.svg";
+export { ReactComponent as EnhancingUI } from "../assets/Images/EnhancingUI.svg";
+
 

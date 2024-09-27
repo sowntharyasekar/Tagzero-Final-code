@@ -3,7 +3,7 @@ import { Backgroundimage } from "../../constants/svglocations";
 import AboutUs from "../../StaticComponents/AboutUs";
 import Service from "../../StaticComponents/Services";
 import HowWeWork from "../../StaticComponents/HowWeWork";
-
+import Casestudies from "../../StaticComponents/Casestudies";
 const Tagzero=()=>{
     return(
         <>
@@ -30,6 +30,7 @@ const Tagzero=()=>{
         <AboutUs/>
         <Service/>
         <HowWeWork/>
+        <Casestudies/>
         </>
     )
 }
