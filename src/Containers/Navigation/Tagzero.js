@@ -4,6 +4,7 @@ import AboutUs from "../../StaticComponents/AboutUs";
 import Service from "../../StaticComponents/Services";
 import HowWeWork from "../../StaticComponents/HowWeWork";
 import Casestudies from "../../StaticComponents/Casestudies";
+import Footer from "../../StaticComponents/Footer";
 const Tagzero=()=>{
     return(
         <>
@@ -31,6 +32,7 @@ const Tagzero=()=>{
         <Service/>
         <HowWeWork/>
         <Casestudies/>
+        <Footer/>
         </>
     )
 }

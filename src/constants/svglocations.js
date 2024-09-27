@@ -19,5 +19,8 @@ export { ReactComponent as Digitalmarketing } from "../assets/Images/Digital mar
 export { ReactComponent as Streamliningoperation } from "../assets/Images/Streamliningoperation.svg";
 export { ReactComponent as Revamping } from "../assets/Images/Revamping.svg";
 export { ReactComponent as EnhancingUI } from "../assets/Images/EnhancingUI.svg";
+export { ReactComponent as Instagram } from "../assets/Images/Instagram.svg";
+export { ReactComponent as LinkedIn } from "../assets/Images/LinkedIn.svg";
+export { ReactComponent as TwitterX } from "../assets/Images/TwitterX.svg";
 
 
