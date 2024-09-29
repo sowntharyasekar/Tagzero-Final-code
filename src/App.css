@@ -118,7 +118,14 @@ body {
 .navbar.navbgclr{
   background-color: black;
   
+  
 }
 .nav-link.navtextclr{
   color: white;
+  font-size: 22.61px;
+  font-weight: 400;
+
+}
+.nav-link.navtextclr:hover{
+  color: #03BF71;
 }
