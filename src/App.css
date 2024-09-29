@@ -115,6 +115,14 @@ body {
   border: none;
   
 }
+.btn.buttoncolor:hover{
+  background-color: #03BF71;
+  color: white;
+  border: 1px solid #03BF71;
+  box-shadow: inset 0 0 2px yellow;
+
+  
+}
 .navbar.navbgclr{
   background-color: black;
   
