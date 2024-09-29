@@ -2,7 +2,7 @@ import Cards from "../DynamicComponents/HowWeWork/Cards";
 import {howWeWorkList} from "../constants/commonConstatnts";
 import { Arrow } from "../constants/svglocations";
 
-const HowWeWork = () => {
+const HowWeWork = (props) => {
     return (
         <div className="py-5">
             <div className="text-center">
@@ -19,7 +19,7 @@ const HowWeWork = () => {
             </div>
             <div className="text-center d-flex justify-content-center mt-3">
                 <div className="w-25">
-                    <button className="contact-btn w-75 pt-1" type="button"><h5 >Contact US <Arrow className="mb-1" /></h5></button>
+                    <button className="contact-btn w-75 pt-1" type="button" onClick={()=>props.onModalClick(true)}><h5 >Contact US <Arrow className="mb-1" /></h5></button>
                 </div>
             </div>
         </div>

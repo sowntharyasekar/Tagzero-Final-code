@@ -2,22 +2,21 @@ import { Logo } from "../../constants/svglocations";
 import React, { useEffect, useState } from "react";
 const TagzeroNav = (props) => {
   const [active, setactive] = useState();
-
   const navclass = `nav-link   navfont navtextclr`;
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           console.log(entry.target.id)
-          if(active==entry.target.id)
+          if (active == entry.target.id)
             return
           setactive(entry.target.id);
         }
-        
+
       });
     }, { threshold: 0.5 }); // Trigger when 50% of the section is visible
 
-    const sections = [props.aboutUs.current, props.services.current, props.howWeWork.current,props.caseStudy.current,props.imagesec.current];
+    const sections = [props.aboutUs.current, props.services.current, props.howWeWork.current, props.caseStudy.current, props.imagesec.current];
     sections.forEach(section => observer.observe(section));
 
     return () => {
@@ -38,7 +37,7 @@ const TagzeroNav = (props) => {
 
         <div class="navbar-nav navbgclr">
           <a
-          
+
             class={navclass}
             style={{
               color: active == "1" ? "#03BF71" : null,
@@ -90,9 +89,9 @@ const TagzeroNav = (props) => {
             Case Study
           </a>
         </div>
-        <button type="button" class="btn buttoncolor">
+        <button type="button" class="btn buttoncolor" onClick={()=>props.onModalClick(true)} >
           Contact Us
-        </button>
+        </button> 
       </div>
     </nav>
   );

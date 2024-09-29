@@ -27,19 +27,23 @@
 .App-link {
   color: #61dafb;
 }
+
 .navfont {
   font-family: 'Roboto', sans-serif;
   color: #FFFFFF;
-  font-size:100px;
+  font-size: 100px;
 }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
 /* styles.css */
 .responsive-image {
   width: 100%;
@@ -50,13 +54,15 @@
 
 @media only screen and (max-width: 768px) {
   .responsive-image {
-    width: 50%; /* Adjust image size for tablets and mobile */
+    width: 50%;
+    /* Adjust image size for tablets and mobile */
   }
 }
 
 @media only screen and (max-width: 480px) {
   .responsive-image {
-    width: 100%; /* Full-width image for smaller screens */
+    width: 100%;
+    /* Full-width image for smaller screens */
   }
 }
 
@@ -67,20 +73,23 @@
 
 /* Hide scrollbar for Firefox */
 * {
-  scrollbar-width: none; /* Hide scrollbar */
-  scrollbar-color: transparent transparent; /* Optional: transparent scrollbar */
+  scrollbar-width: none;
+  /* Hide scrollbar */
+  scrollbar-color: transparent transparent;
+  /* Optional: transparent scrollbar */
 }
 
 /* Ensure scrollable behavior */
 body {
-  overflow: auto; /* Keep scrolling behavior */
+  overflow: auto;
+  /* Keep scrolling behavior */
 }
 
 .overlay-text {
   position: absolute;
   top: 70%;
   left: 50%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -88,18 +97,23 @@ body {
   color: white;
   text-align: center;
 
- 
+
 }
+
 @media only screen and (max-width: 768px) {
   .overlay-text {
-    top: 50%; /* Adjust image size for tablets and mobile */
+    top: 50%;
+    /* Adjust image size for tablets and mobile */
   }
 }
+
 @media only screen and (max-width: 480px) {
   .overlay-text {
-    top: 50%; /* Adjust image size for tablets and mobile */
+    top: 50%;
+    /* Adjust image size for tablets and mobile */
   }
 }
+
 .overlay-text h2 {
   font-size: 3vw;
   margin: 0;
@@ -109,23 +123,114 @@ body {
   font-size: 1.3vw;
   width: 70%;
 }
-.btn.buttoncolor{
+
+.btn.buttoncolor {
   background-color: #03BF71;
   color: white;
   border: none;
-  
+
 }
-.navbar.navbgclr{
+
+.navbar.navbgclr {
   background-color: black;
-  
-  
+
+
 }
-.nav-link.navtextclr{
+
+.nav-link.navtextclr {
   color: white;
   font-size: 22.61px;
   font-weight: 400;
 
 }
-.nav-link.navtextclr:hover{
+
+.nav-link.navtextclr:hover {
   color: #03BF71;
+}
+
+
+.contact-modal-header {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.69);
+}
+
+.back {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.2188px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  color: #8692A6;
+}
+
+
+.modalp {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.modalText {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
+.modalCount {
+  font-weight: 700;
+  font-size: 47.4795px;
+  line-height: 71px;
+  color: #000000;
+}
+
+.modalCountLine {
+
+  width: 32.15px;
+  height: 0px;
+
+  border: 3.46205px solid #03BF71;
+}
+
+.modalCountHead {
+  font-weight: 700;
+  font-size: 11.8699px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.69);
+}
+
+.modalCountText {
+  font-weight: 600;
+  font-size: 11.8699px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.form-label {
+  font-weight: 400;
+  font-size: 12.1875px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.inputField {
+  border: none !important;
+  background: #F7F7F7 !important;
+  border-radius: 4.90196px !important;
+}
+.modalSubmit{
+  background: #03BF71;
+  border: 1px solid #03BF71;
+  color: #F7F7F7;
+}
+.modalSubmit:hover{
+  box-shadow: inset 0 0 2px yellow;
 }

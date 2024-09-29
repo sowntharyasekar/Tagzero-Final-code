@@ -22,5 +22,6 @@ export { ReactComponent as EnhancingUI } from "../assets/Images/EnhancingUI.svg"
 export { ReactComponent as Instagram } from "../assets/Images/Instagram.svg";
 export { ReactComponent as LinkedIn } from "../assets/Images/LinkedIn.svg";
 export { ReactComponent as TwitterX } from "../assets/Images/TwitterX.svg";
+export { ReactComponent as Back } from "../assets/Images/Back.svg";
 
 
