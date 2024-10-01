@@ -43,28 +43,44 @@
     transform: rotate(360deg);
   }
 }
+.image-wrapper {
+  position: relative; /* Make this a positioned element for absolute positioning */
+  width: 100%;
+  height: auto; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+}
 
 /* styles.css */
 .responsive-image {
-  width: 100%;
-  height: auto;
-  position: relative;
-
+  width: 100%; /* Full width by default */
+  height: auto; /* Maintain aspect ratio */
+  position: relative; /* Make it a positioned element for absolute positioning of overlay */
 }
 
+/* Adjust image size for tablets */
 @media only screen and (max-width: 768px) {
   .responsive-image {
-    width: 50%;
-    /* Adjust image size for tablets and mobile */
+    width: 50%; /* Half-width for tablets */
+    height: auto; /* Maintain aspect ratio */
   }
 }
 
+/* Full-width image for smaller screens */
 @media only screen and (max-width: 480px) {
   .responsive-image {
-    width: 100%;
-    /* Full-width image for smaller screens */
+    width: 100%; /* Full width for smaller screens */
+    height: auto; /* Maintain aspect ratio */
   }
 }
+
+/* Optional: Add this if the image is used as a background image */
+.responsive-image {
+  background-size: cover; /* Ensure the background image covers the entire area */
+  background-position: center; /* Center the image */
+}
+
 
 /* Hide scrollbar for Chrome, Safari, and Edge */
 ::-webkit-scrollbar {
@@ -85,44 +101,51 @@ body {
   /* Keep scrolling behavior */
 }
 
+
 .overlay-text {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: absolute; /* Position it over the image */
+  top: 50%; /* Center it vertically */
+  left: 50%; /* Center it horizontally */
+  transform: translate(-50%, -50%); /* Adjust to truly center */
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: center;
-
-
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center vertically within the flex container */
+  align-items: center; /* Center horizontally within the flex container */
+  color: white; /* Text color */
+  text-align: center; /* Center text alignment */
+  padding: 20px; /* Padding for some breathing space */
 }
 
-@media only screen and (max-width: 768px) {
-  .overlay-text {
-    top: 50%;
-    /* Adjust image size for tablets and mobile */
-  }
-}
 
-@media only screen and (max-width: 480px) {
-  .overlay-text {
-    top: 50%;
-    /* Adjust image size for tablets and mobile */
-  }
-}
 
+
+
+/* Overlay text heading */
 .overlay-text h2 {
-  font-size: 3vw;
-  margin: 0;
+  font-size: 3vw; /* Responsive font size */
+  margin: 0; /* Remove default margin */
 }
 
+/* Overlay text paragraph */
 .overlay-text p {
-  font-size: 1.3vw;
-  width: 70%;
+  font-size: 1.3vw; /* Responsive font size */
+  width: 70%; /* Manageable width for text */
+  margin: 0; /* Remove default margin */
 }
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+  .overlay-text h2 {
+    font-size: 4vw; /* Increase font size for the heading */
+  }
+
+  .overlay-text p {
+    font-size: 3vw; /* Increase font size for the paragraph */
+    width: 80%; /* Increase width for better readability */
+  }
+}
+
+
 
 .btn.buttoncolor {
   background-color: #03BF71;
