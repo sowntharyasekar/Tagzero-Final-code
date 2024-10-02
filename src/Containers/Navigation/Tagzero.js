@@ -39,7 +39,7 @@ const Tagzero = () => {
     <p className="mt-2">
       Empowering your business with tailored analytics solutions to drive smarter decisions and sustainable success.
     </p>
-    <button type="button" className="btn buttoncolor mt-2">Start Your Journey</button>
+    <button type="button" className="btn buttoncolor mt-2" onClick={showContactModal}>Start Your Journey</button>
   </div>
 </div>
 
